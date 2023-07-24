@@ -37,7 +37,7 @@ elif(user==3):
     print("Successfully Downloaded !")
 elif(user==4):
     from pytube import YouTube
-    inp=input("Enter Video link:")
+    inp=input("Enter Audio link:")
     yt=YouTube(inp)
     video=yt.streams.get_audio_only()
     video.download()
